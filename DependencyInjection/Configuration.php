@@ -13,7 +13,9 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder('danaki_doctrine_enum_type_bundle');
-        $treeBuilder->root('doctrine_enum_type')
+        $rootNode = $treeBuilder->getRootNode();
+        
+        $rootNode
             ->children()
                     ->arrayNode('types')
                         ->useAttributeAsKey('name')
