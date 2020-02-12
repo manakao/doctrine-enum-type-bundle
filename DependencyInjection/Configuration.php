@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
     /**
      * {@inheritdoc}
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder('danaki_doctrine_enum_type_bundle')
     {
         $treeBuilder = new TreeBuilder();
         $treeBuilder->root('doctrine_enum_type')
