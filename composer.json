@@ -1,5 +1,5 @@
 {
-    "name": "manakao/doctrine-enum-type-bundle",
+    "name": "danaki/doctrine-enum-type-bundle",
     "type": "symfony-bundle",
     "description": "This bundle provides a typed enumeration for Symfony5 applications",
     "keywords": ["typed enumeration"],
